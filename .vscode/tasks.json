@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run subscription_api",
+			"type": "shell",
+			"command": "dotnet",
+			"args": [
+				"run"
+			],
+			"isBackground": true
+		},
+		{
+			"label": "Run subscription_api clean",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-NoProfile",
+				"-Command",
+				"Get-Process -Name subscription_api -ErrorAction SilentlyContinue | Stop-Process -Force; dotnet run"
+			],
+			"isBackground": true
+		}
+	]
+}
