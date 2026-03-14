@@ -20,6 +20,16 @@
 				"Get-Process -Name subscription_api -ErrorAction SilentlyContinue | Stop-Process -Force; dotnet run"
 			],
 			"isBackground": true
+		},
+		{
+			"label": "Run unit tests",
+			"type": "shell",
+			"command": "dotnet",
+			"args": [
+				"test",
+				"subscription_api.Tests/subscription_api.Tests.csproj",
+				"-nologo"
+			]
 		}
 	]
 }

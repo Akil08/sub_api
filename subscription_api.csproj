@@ -4,6 +4,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <DefaultItemExcludes>$(DefaultItemExcludes);subscription_api.Tests\**</DefaultItemExcludes>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,6 +18,13 @@
     </PackageReference>
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.1" />
     <PackageReference Include="StackExchange.Redis" Version="2.8.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="subscription_api.Tests\**\*.cs" />
+    <Content Remove="subscription_api.Tests\**\*" />
+    <EmbeddedResource Remove="subscription_api.Tests\**\*" />
+    <None Remove="subscription_api.Tests\**\*" />
   </ItemGroup>
 
 </Project>
