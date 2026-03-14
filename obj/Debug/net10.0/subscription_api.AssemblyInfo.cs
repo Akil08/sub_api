@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("subscription_api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46716b9d2b9f003eba3a188671446178568c83c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e22b71bce84fcdddd029a90a89a9aa56f858d41a")]
 [assembly: System.Reflection.AssemblyProductAttribute("subscription_api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("subscription_api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
