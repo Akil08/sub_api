@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\subscription_api\subscription_api.csproj" />
+    <ProjectReference Include="../subscription_api.csproj" />
   </ItemGroup>
 
 </Project>
