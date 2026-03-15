@@ -1,6 +1,4 @@
-# ✅ Understood! Copy-Paste This Into README.md
 
-```markdown
 # Subscription API
 
 ## What the Project Is
