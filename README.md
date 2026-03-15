@@ -137,10 +137,7 @@ http://localhost:5257/hangfire
 
 ## CI/CD Status
 
-![CI/CD Pipeline](https://github.com/Akil08/sub_api/actions/workflows/ci-cd.yml)
+[CI/CD Pipeline](https://github.com/Akil08/sub_api/actions/workflows/ci-cd.yml)
 
 ---
 
-## 📄 License
-MIT License
-```
